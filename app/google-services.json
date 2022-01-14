@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61710996096",
+    "project_id": "absolute-bot-334506",
+    "storage_bucket": "absolute-bot-334506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61710996096:android:1f7aedde5089ca8fc7cc65",
+        "android_client_info": {
+          "package_name": "com.technicalrupu.learningweek1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61710996096-7lq8eb9kspljrkmj8eb7nsssd5ucbrks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1K0-5GKhIcKon3320qhqMPJd550vIFbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61710996096-7lq8eb9kspljrkmj8eb7nsssd5ucbrks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

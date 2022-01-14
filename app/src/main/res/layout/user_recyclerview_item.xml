@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="2dp"
+    android:orientation="horizontal"
+    app:cardElevation="6dp">
+<LinearLayout
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:src="@drawable/ic_user"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="3dp"
+            android:text="Rupesh Kumar Deshmukh"
+            android:paddingHorizontal="10dp"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false" />
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text="9424135120"
+            android:paddingHorizontal="15dp"
+            android:textStyle="italic"
+            android:textColor="@color/lightRed"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

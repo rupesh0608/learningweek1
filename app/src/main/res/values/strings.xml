@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Learning Week 1</string>
+    <string name="task1">New Activity</string>
+    <string name="task2">Fragments</string>
+
+    //fragment Buttons
+    <string name="NormalFragment">Normal Fragment</string>
+    <!--         default animations-->
+
+    <string name="DefaultOpenTransition">Open</string>
+    <string name="DefaultFadeTransition">Fade</string>
+    <string name="DefaultCloseTransition">Close</string>
+    <string name="DefaultEnterMaskTransition"> Enter Mask</string>
+    <string name="DefaultExitMaskTransition"> Exit Mask</string>
+    <string name="DefaultNoneTransition">None</string>
+    <string name="DefaultUnsetTransition">Unset</string>
+
+    <string name="SlideToDownFragment">Slide To Down</string>
+    <string name="SlideToUpFragment">Slide To Up</string>
+    <string name="SlideToLeftFragment">Slide To Left</string>
+    <string name="SlideToRightFragment">Slide To Right</string>
+    <string name="FragmentText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="task3">Check Box</string>
+    <string name="task4">Radio Buttons</string>
+    <string name="task5">List View</string>
+    <string name="task6">Recycler View</string>
+    <string name="task7">Horizontal ScrollView</string>
+    <string name="task8">Vertical ScrollView</string>
+    <string name="task9">Time Picker</string>
+    <string name="task10">Date Picker</string>
+    <string name="task11">Progress View</string>
+    <string name="task12">Tab Layout</string>
+    <string name="task13">Action Bar</string>
+    <string name="task14">Toast</string>
+    <string name="task15">Auto Complete TextView</string>
+    <string name="task16">Start Activity for  Result</string>
+    <string name="task17">Room Database</string>
+    <string name="task18">Shared Preferences</string>
+    <string name="task19">Error Handling</string>
+    <string name="task20">Web View</string>
+    <string name="task21">Image Picker</string>
+    <string name="task22">Video Picker</string>
+    <string name="task23">Camera</string>
+    <string name="task24">Contacts</string>
+    <string name="task25">Custom Content Provider</string>
+    <string name="task26">Runtime Permissions</string>
+    <string name="task27">Google Map</string>
+    <string name="task28">Background Service</string>
+    <string name="task29">Firebase Connection</string>
+    <string name="task30">Retrofit</string>
+    <string name="task31">Volley Library</string>
+    <string name="task32">Build Creation</string>
+    <string name="task33">Firebase Realtime Database\n(Chat Application)</string>
+    <string name="title_activity_marker_map">MarkerMapActivity</string>
+    <string name="title_activity_polyline_map">PolylineMapActivity</string>
+    <string name="title_activity_current_location">CurrentLocationActivity</string>
+</resources>

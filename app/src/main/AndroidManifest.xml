@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.technicalrupu.learningweek1">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission android:name="com.technicalrupu.learningweek1.Read" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name=".RoomDb.UserApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearningWeek1"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".firebase.ChatApplication.ChatRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.ChatApplication.RoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.FacebookLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.GoogleSigInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.SimpleLoginSignupActivity"
+            android:exported="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps.CurrentLocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_current_location" />
+        <activity
+            android:name=".Maps.PolylineMapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_polyline_map" />
+        <activity
+            android:name=".Maps.MarkerMapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_marker_map" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".BackgroundServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuildCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VolleyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RetrofitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FireBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RuntimePermissionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomContentProviderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoPickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImagePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ErrorHandlingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoomDb.UserRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoomDbActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivityForResultFolder.StartActivityForResult2"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivityForResult"
+            android:exported="false" />
+        <activity
+            android:name=".AutoCompleteTextView"
+            android:exported="false" />
+        <activity
+            android:name=".ToastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActionBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TabLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatePicker.SpinnerModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatePicker.CalendarModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimePicker.SpinnerModeActvity"
+            android:exported="false" />
+        <activity
+            android:name=".TimePicker.ClockModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerView.GridRecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerView.LinearRecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerticalScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HorizontalScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListView.CustomListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListView.NormalListviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SendMsgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NewEmptyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Helper.MusicPlayer" />
+
+        <provider
+            android:name=".CustomCP.CustomContentProvider"
+            android:authorities="com.technicalrupu.learningweek1.CustomCP.CustomContentProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
